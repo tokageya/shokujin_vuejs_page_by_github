@@ -16,6 +16,7 @@ body {
 
 input[type=radio], input[type=checkbox] {
   display: none;
+  
 }
 
 .label, .h6 {
@@ -95,4 +96,23 @@ input[type=radio]:checked + .radio:before {
 }
 input[type=checkbox]:checked + .checkbox::before {
   opacity: 1;
+}
+
+
+
+
+
+/*ここからセレクトボックスのもの*/
+
+.select_table{
+  width: 40%;
+}
+.select_num_of_people{
+  width: 20%;
+}
+.select_order{
+  width: 100%;
+}
+.select_amount{
+  width: 70%;
 }
