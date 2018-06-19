@@ -15,7 +15,7 @@ const master = {
         {label:'9', value:11},
         {label:'10', value:12}
     ],
-    number_of_people:[
+    num_people:[
         {label:'1', value:1},
         {label:'2', value:2},
         {label:'3', value:3},
@@ -28,12 +28,12 @@ const master = {
     menus:[
         {label:'1番 麻婆豆腐', value:0, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"卵", price:0}]},
         {label:'2番 豆腐のうま煮', value:1, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"卵",price:0},{text:"麺",price:-90}]},
-        {label:'3番 肉野菜炒め', value:2, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
-        {label:'4番 豚肉とザーサイの細切り炒め', value:3, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
-        {label:'5番 麻婆春雨', value:4, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
-        {label:'6番 かに玉子', value:5, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text:"チリソース",price:0},{text: "醤油",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
-        {label:'7番 ニラ玉子', value:6, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
-        {label:'8番 玉ねぎと玉子炒め', value:7, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
+        {label:'3番 肉野菜炒め', value:2, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"麺",price:-90}]},
+        {label:'4番 豚肉とザーサイの細切り炒め', value:3, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"麺",price:-90}]},
+        {label:'5番 麻婆春雨', value:4, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"麺",price:-90}]},
+        {label:'6番 かに玉子', value:5, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text:"チリソース",price:0},{text: "醤油",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"麺",price:-90}]},
+        {label:'7番 ニラ玉子', value:6, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"麺",price:-90}]},
+        {label:'8番 玉ねぎと玉子炒め', value:7, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0},{text:"麺",price:-90}]},
         {label:'9番 週変わり定食', value:8, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
         {label:'15番 週変わり定食', value:9, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
         {label:'おすすめ', value:15, choice:[{text: "小辛", price: 0},{text: "中辛", price: 0},{text: "辛", price: 0},{text: "甘口",price: 0},{text: "激甘",price: 0},{text: "にんにく", price: 0},{text:"山椒",price:0}]},
@@ -43,14 +43,6 @@ const master = {
         {text:'具大盛り', label:'具大盛り(+100円)', value:1},
         {text:'ごはん大盛り', label:'ごはん大盛り', value:2},
         {text:'ハーフ', label:'ハーフ(-100円)', value:3},
-    ],
-    option1s:[
-        {text:'', label:'(指定なし)', value:0},
-        {text:'小辛', label:'小辛', value:1},
-        {text:'中辛', label:'中辛', value:2},
-        {text:'辛', label:'辛', value:3},
-        {text:'甘口', label:'甘口', value:4},
-        {text:'激甘', label:'激甘', value:5},
     ],
     option2s:[
         {text:'にんにく',value:0},
@@ -64,11 +56,9 @@ const master = {
 let form = new Vue({
     //************モデル→ヴュー→アップデート***************//
     //--------------vue.jsは「関連付けること」につよい---------------//
-
     /*elオプション*/
     //ここでidと関連付けて動きを関連つけるものを動かす//
     el: '#god_lizard',
-
     /*dataオプション*/
     //dataを置く//
     //関数(function)のみ受け付ける//
@@ -82,12 +72,28 @@ let form = new Vue({
             selected_option2: [[], [], [], [], [], [], [], []],
         }
     },
-
     /*watchオプション*/
     //監視プロパティ。選択可能な項目を制御する//
     watch: {
+        selected_menu:function(){
+            /*「メニューを選択→オプションが変更→選択されていたメニューの変更」と動作したとき、オプションで選べないものが消えるようにする*/
+            this.selected_menu.forEach(function(each_selected_menu,index){
+                form.selected_option2.forEach(function(each_selected_option_2,index_2){
+                    let count = 0;
+                    let mistake_option_flag = 1;
+                    for(count = 0; count < master.menus[index].choice.length; count ++){
+                        if(master.menus[each_selected_menu].choice[count] == master.menus[index].choice[count]){
+                            mistake_option_flag = 0;
+                        }
+                    }
+                    if(mistake_option_flag){
+                        form.selected_option2[index_2] = [];
+                    }
+                })
+            })
+        },
         selected_option2:function(){
-            this.selected_option2.forEach(function(each_selected_option,index){
+            this.selected_option2.forEach(function(each_selected_option){
                 /*もし選択肢に辛さ選択が複数されていたら前に選択していたものを消す*/
                 let hot_flag = -1;
                 let count = 0;
@@ -121,32 +127,24 @@ let form = new Vue({
                 }
                 /*もし選択肢が3個以上選ばれそうになったら消す*/
                 if(each_selected_option.length >= 3){
-                    console.log("消す前の数：" + each_selected_option.length);
-                    console.log("消すべき人間：" + index);
-                    console.log("消すべき要素：" + each_selected_option[0].text);
                     each_selected_option.shift();
-                    console.log("消した後の数：" + each_selected_option.length);
                 }
-                console.log("0番目の要素数"+each_selected_option.length);
             })
         },
     },
 
     /*computed　　(固有名詞。名前は指定されてる)*/
     //elのデータが変更されたときに、jsが動く//
-    
     computed: {
         /*選ばれた商品からメニューを選択する*/
-        selected_menu_obj: function(i) {
-            return this.selected_menu.map(function (j) { return master.menus[j]});
+        selected_menu_obj: function() {
+            return this.selected_menu.map(function (i) { return master.menus[i]});
         },
-        
         /*this(このlet formの中)のstr_table変数の中身を返す*/
         str_table: function() {
             //let str = "";
             return master.tables[this.selected_table].label;
         },
-        
         /*今回の注文でどのような文書が作成されるかを表示するために、str_order変数に文字列を入れて返す*/
         str_order: function() {
             let str_order = "";
@@ -167,12 +165,10 @@ let form = new Vue({
                 }
                 str_order += str_menu + " " + str_amount + " " + str_option2 + "\n";
             }
-
             return str_order;
         },
         line_url: function() {
             let line_str = "line://msg/text/?" + encodeURIComponent("机: " + this.str_table + "\n" + this.str_order);
-
             return line_str;
         },
     }

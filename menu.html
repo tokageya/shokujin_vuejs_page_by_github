@@ -22,10 +22,9 @@
                     <p>「食神リザード」とは</p>
                 </div>
                 <div class="panel-body">
-                    「食神リザード」とは、皆ができるだけ簡単にオプションなどの選択肢を把握して注文できるようにと有志が作った食神注文Webアプリです。<br>
-                    アプリというにはまだまだ拙い完成度ではありますが、役立ててもらえたら幸いです。<br>
-                    また、オプションが間違ってる・正常に動作しないといったバグや、オプションが他にもあるよといったご意見やご要望等がありましたら、お手数お掛けしますが以下のtwitterアカウントまでご連絡をいただけると助かります。<br>
-                    <a href="https://twitter.com/shokujin_lizard">@shokujin_lizard</a>
+                    <div>「食神リザード」は、皆ができるだけ簡単にオプションなどの選択肢を把握して注文できるようにと有志が作った食神注文Webアプリです。実際に使用する際は自己責任でお願いします。<br>
+                    また、オプションが間違ってる・正常に動作しないといったバグや、オプションが他にもあるよといったご意見やご要望等がありましたら、お手数お掛けしますが以下のtwitterアカウントまでご連絡をいただけると助かります。<br></div>
+                    <a href="https://twitter.com/shokujin_lizard">@shokujin_lizard</a><br>
                 </div>
             </article>
             <article class="panel panel-info">
@@ -49,13 +48,13 @@
                             <div class="row">
                                 <div class="col-xs-4 col-sm-3" name="nump">
                                     <select class="form-control " v-model="number_of_people">
-                                        <option v-for="num in master.number_of_people" v-bind:value="num.value">{{ num.label }}</option>
+                                        <option v-for="num in master.num_people" v-bind:value="num.value">{{ num.label }}</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
-                        <div v-for="one_of_people in master.number_of_people">
-                            <div name="1st_person">
+                        <div v-for="one_of_people in master.num_people">
+                            <div v-if="one_of_people.value <= number_of_people">
                                 <div class="form-group">
                                     <br>
                                     <div class="a_people">{{one_of_people.value}}人目の注文</div>
