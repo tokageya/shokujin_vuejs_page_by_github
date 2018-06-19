@@ -36,7 +36,7 @@ input[type=radio], input[type=checkbox] {
   vertical-align: middle;
   cursor: pointer;
 }
-.radio:hover, .checkbox::hover {
+.radio:hover, .checkbox:hover {
   background-color: #e2edd7;
 }
 .radio:hover:after, .checkbox:hover::after {
@@ -115,4 +115,12 @@ input[type=checkbox]:checked + .checkbox::before {
 }
 .select_amount{
   width: 70%;
+}
+
+/*人の装飾*/
+.a_people{
+  color: #000080;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #000080;
+  border-bottom: 1px solid #000080;
 }
