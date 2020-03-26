@@ -1,1 +1,128 @@
-body{background-color:#f6f7f8}.logo{height:80px;width:auto;margin-top:5px;margin-left:5px}.container{display:inline-flex}input[type=radio],input[type=checkbox]{display:none}.label,.h6{color:#545454}.radio,.checkbox{box-sizing:border-box;-webkit-transition:background-color .2s linear;transition:background-color .2s linear;position:relative;display:inline-block;margin:0 20px 8px 0;padding:12px 12px 12px 42px;border-radius:8px;background-color:#f4f7f5;vertical-align:middle;cursor:pointer}.radio:hover,.checkbox:hover{background-color:#e2edd7}.radio:hover:after,.checkbox:hover::after{border-color:#53b300}.radio:after,.checkbox::after{-webkit-transition:border-color .2s linear;transition:border-color .2s linear;position:absolute;top:50%;left:15px;display:block;margin-top:-10px;width:16px;height:16px;border:2px solid #bbb;border-radius:6px;content:''}.radio::before{-webkit-transition:opacity .2s linear;transition:opacity .2s linear;position:absolute;top:45%;left:18px;display:block;margin-top:-5px;width:10px;height:10px;border-radius:50%;background-color:#53b300;content:'';opacity:0}input[type=radio]:checked + .radio:before{opacity:1}.checkbox::before{-webkit-transition:opacity .2s linear;transition:opacity .2s linear;position:absolute;top:50%;left:21px;display:block;margin-top:-7px;width:5px;height:9px;border-right:3px solid #53b300;border-bottom:3px solid #53b300;content:'';opacity:0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}input[type=checkbox]:checked + .checkbox::before{opacity:1}.select_table{width:40%}.select_num_of_people{width:20%}.select_order{width:100%}.select_amount{width:70%}.a_people{color:navy;padding:.25em 0 .5em .75em;border-left:6px solid navy;border-bottom:1px solid navy}
+
+body {
+    background-color: #f6f7f8;
+    padding-top: 60px;
+}
+
+
+.logo {
+    height: 80px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container {
+  display: inline-flex;
+}
+
+input[type=radio], input[type=checkbox] {
+  display: none;
+  
+}
+
+.label, .h6 {
+    color: #545454;
+}
+
+.radio, .checkbox {
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  padding: 12px 12px 12px 42px;
+  border-radius: 8px;
+  background-color: #f4f7f5;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.radio:hover, .checkbox:hover {
+  background-color: #e2edd7;
+}
+.radio:hover:after, .checkbox:hover::after {
+  border-color: #53b300;
+}
+.radio:after, .checkbox::after {
+  -webkit-transition: border-color 0.2s linear;
+  transition: border-color 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  display: block;
+  margin-top: -10px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bbb;
+  border-radius: 6px;
+  content: '';
+}
+
+.radio::before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 45%;
+  left: 18px;
+  display: block;
+  margin-top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #53b300;
+  content: '';
+  opacity: 0;
+}
+input[type=radio]:checked + .radio:before {
+  opacity: 1;
+}
+
+.checkbox::before {
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  display: block;
+  margin-top: -7px;
+  width: 5px;
+  height: 9px;
+  border-right: 3px solid #53b300;
+  border-bottom: 3px solid #53b300;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type=checkbox]:checked + .checkbox::before {
+  opacity: 1;
+}
+
+
+
+
+
+/*ここからセレクトボックスのもの*/
+
+.select_table{
+  width: 40%;
+}
+.select_num_of_people{
+  width: 20%;
+}
+.select_order{
+  width: 100%;
+}
+.select_amount{
+  width: 70%;
+}
+
+/*人の装飾*/
+.a_people{
+  color: #000080;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #000080;
+  border-bottom: 1px solid #000080;
+}
